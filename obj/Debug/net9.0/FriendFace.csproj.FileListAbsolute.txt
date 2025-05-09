@@ -1,0 +1,14 @@
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\bin\Debug\net9.0\FriendFace.exe
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\bin\Debug\net9.0\FriendFace.deps.json
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\bin\Debug\net9.0\FriendFace.runtimeconfig.json
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\bin\Debug\net9.0\FriendFace.dll
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\bin\Debug\net9.0\FriendFace.pdb
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\obj\Debug\net9.0\FriendFace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\obj\Debug\net9.0\FriendFace.AssemblyInfoInputs.cache
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\obj\Debug\net9.0\FriendFace.AssemblyInfo.cs
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\obj\Debug\net9.0\FriendFace.csproj.CoreCompileInputs.cache
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\obj\Debug\net9.0\FriendFace.dll
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\obj\Debug\net9.0\refint\FriendFace.dll
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\obj\Debug\net9.0\FriendFace.pdb
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\obj\Debug\net9.0\FriendFace.genruntimeconfig.cache
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\obj\Debug\net9.0\ref\FriendFace.dll
