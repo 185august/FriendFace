@@ -12,3 +12,4 @@ C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\obj\D
 C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\obj\Debug\net9.0\FriendFace.pdb
 C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\obj\Debug\net9.0\FriendFace.genruntimeconfig.cache
 C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\obj\Debug\net9.0\ref\FriendFace.dll
+C:\Users\augus\Documents\GET academy\emne3\3of6\3av6\FriendFace\FriendFace\obj\Debug\net9.0\FriendFace.sourcelink.json

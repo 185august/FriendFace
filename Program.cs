@@ -19,7 +19,7 @@ while (true)
             RemoveFriendFlow(currentUser);
             break;
         case '3':
-            UserInterface.DisplayAllFriends(currentUser);
+            UserInterface.DisplayFriendList(currentUser);
             break;
         case '4':
             DisplayInterestsFlow(currentUser);
@@ -76,26 +76,20 @@ static void AddFriendFlow(User currentUser, List<User> users)
 
 static void RemoveFriendFlow(User currentUser)
 {
-    if (!UserInterface.CheckIfUserHasAnyFriends(currentUser))
-    {
-        Console.WriteLine($"You have no friends to select");
-        return;
-    }
-    var friendToRemove = UserInterface.SelectFriend(currentUser);
+    UserInterface.DisplayFriendList(currentUser);
+    Console.WriteLine("Select a friend to remove:");
+    var choice = UserInterface.GetValidChoice(currentUser.Friends.Count);
+    var friendToRemove = currentUser.SelectFriend(choice);
     currentUser.RemoveUser(friendToRemove);
     Console.WriteLine($"You have removed {friendToRemove.FirstName} {friendToRemove.LastName} from your friends.");
 }
 
 static void DisplayInterestsFlow(User currentUser)
 {
-    if (!UserInterface.CheckIfUserHasAnyFriends(currentUser))
-    {
-        Console.WriteLine($"You have no friends to select");
-        return;
-    }
-
+    UserInterface.DisplayFriendList(currentUser);
     Console.WriteLine("Select a friend to view their interests:");
-    var selectedUser = UserInterface.SelectFriend(currentUser);
+    var choice = UserInterface.GetValidChoice(currentUser.Friends.Count);
+    var selectedUser = currentUser.SelectFriend(choice);
     Console.WriteLine(
         $"{selectedUser.FirstName} {selectedUser.LastName}'s interests: {string.Join(", ", selectedUser.Interests)}");
 }

@@ -48,32 +48,20 @@
                 }
             }
         }
-        public static void DisplayAllFriends(User currentUser)
+
+        public static void DisplayFriendList(User currentUser)
         {
-            if (!CheckIfUserHasAnyFriends(currentUser))
+            var friends = currentUser.ListOfFriends();
+            if (friends == null)
             {
-                Console.WriteLine("You do not have any friends");
+                Console.WriteLine("You have no friends to display.");
                 return;
             }
-            Console.WriteLine("Your friends:");
-            var i = 1;
-            foreach (var friend in currentUser.Friends)
+            for (var i = 0; i < friends.Count; i++)
             {
-                Console.WriteLine($"{i}: {friend.FirstName} {friend.LastName}");
-                i++;
+                Console.WriteLine($"{i + 1}. {friends[i]}");
             }
         }
-
-        public static bool CheckIfUserHasAnyFriends(User currentUser)
-        {
-            return currentUser.Friends.Count > 0;
-        }
-        public static User SelectFriend(User currentUser)
-        {
-            if (!CheckIfUserHasAnyFriends(currentUser)) return null!;
-            DisplayAllFriends(currentUser);
-            int index = GetValidChoice(currentUser.Friends.Count);
-            return currentUser.Friends[index - 1];
-        }
+        
     }
 }
